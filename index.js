@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Fixed URL typo
+  origin: "https://job-frontend-qfve.vercel.app/", // Fixed URL typo
   credentials: true, // Fixed typo: `Credentials` to `credentials`
 };
 app.use(cors(corsOptions));
